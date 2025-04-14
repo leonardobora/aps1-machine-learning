@@ -1,0 +1,20 @@
+Problem: Files are being created by the Python script but not appearing in the directory.
+
+Possible causes:
+1. File permissions issue
+2. Relative path resolution issue
+3. Writing to a different directory than expected
+
+Let's add some debug information to track the issue:
+
+Script says:
+- Files are being saved to: ../outputs/improved_model/
+- CSV file saved with size: 1033339 bytes
+- Images saved to: ../outputs/improved_model/figures/
+
+Filesystem checks:
+- The directory structure exists: outputs/improved_model/figures
+- The CSV file should be 1MB (1033339 bytes)
+- The script shows specific figure filenames being created
+
+This debug file is being created to test write permissions in the target directory.
