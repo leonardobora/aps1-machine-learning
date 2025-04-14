@@ -1,5 +1,11 @@
 # Modelo de Previsão de Emissões de N2O no Brasil
 
+**Equipe:**
+- Leonardo Bora
+- Leticia Cardoso
+- Luan Constancio
+- Carlos Krueger
+
 Este projeto implementa um modelo de aprendizado de máquina para prever emissões de óxido nitroso (N2O) no Brasil utilizando técnicas clássicas de machine learning. O objetivo é superar um baseline simplista e criar um modelo otimizado que pode auxiliar na compreensão dos fatores que influenciam as emissões.
 
 ## Estrutura do Projeto
@@ -10,7 +16,8 @@ aps1/
 │   └── br_seeg_emissoes_brasil.csv      # Dataset de emissões
 ├── src/
 │   ├── APS1.ipynb                       # Notebook original
-│   └── aps1_final.ipynb                 # Notebook com solução otimizada
+│   ├── aps1_final.ipynb                 # Notebook com solução otimizada
+│   └── fix_overfitting.py               # Script para correção de overfitting
 ├── outputs/
 │   └── n2o_predictions.csv              # Saída com previsões
 ├── requirements.txt                     # Dependências do projeto
