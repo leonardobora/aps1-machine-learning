@@ -15,9 +15,7 @@ aps1/
 ├── data/
 │   └── br_seeg_emissoes_brasil.csv      # Dataset de emissões
 ├── src/
-│   ├── APS1.ipynb                       # Notebook original
-│   ├── aps1_final.ipynb                 # Notebook com solução otimizada
-│   └── fix_overfitting.py               # Script para correção de overfitting
+│   └── aps1_fixed.ipynb                 # Notebook com solução otimizada
 ├── outputs/
 │   └── n2o_predictions.csv              # Saída com previsões
 ├── requirements.txt                     # Dependências do projeto
@@ -36,10 +34,10 @@ pip install -r requirements.txt
 
 ## Executando o Projeto
 
-Abra o notebook `src/aps1_final.ipynb` em um ambiente Jupyter:
+Abra o notebook `src/aps1_fixed.ipynb` em um ambiente Jupyter:
 
 ```bash
-jupyter notebook src/aps1_final.ipynb
+jupyter notebook src/aps1_fixed.ipynb
 ```
 
 O notebook está organizado em seções sequenciais:

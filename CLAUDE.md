@@ -10,8 +10,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
   - Linux/macOS: `python -m venv venv && source venv/bin/activate`
   - Windows: `python -m venv venv && venv\Scripts\activate`
 - Run the notebook:
-  - Linux/macOS: `jupyter notebook src/aps1_final.ipynb`
-  - Windows: `jupyter notebook src\aps1_final.ipynb`
+  - Linux/macOS: `jupyter notebook src/aps1_fixed.ipynb`
+  - Windows: `jupyter notebook src\aps1_fixed.ipynb`
 - Generate predictions: Run all cells in the notebook sequentially
 
 ## Code Style Guidelines
